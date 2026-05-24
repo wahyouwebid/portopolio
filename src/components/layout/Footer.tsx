@@ -9,6 +9,7 @@ const footerLinks = {
     { label: 'Projects', href: '/projects' },
     { label: 'Blog', href: '/blog' },
     { label: 'Contact', href: '/contact' },
+    { label: 'Privacy Policy', href: '/privacy-policy' },
   ],
   Tech: [
     { label: 'Flutter', href: '/projects?category=flutter' },
@@ -84,12 +85,20 @@ export default function Footer() {
             © 2024 Ujang Wahyu. Built with{' '}
             <Heart className="w-3.5 h-3.5 text-red-400 inline" /> and Next.js
           </p>
-          <Link
-            href="/admin"
-            className="text-slate-600 text-xs hover:text-slate-400 transition-colors"
-          >
-            Admin Panel
-          </Link>
+          <div className="flex items-center gap-4">
+            <Link
+              href="/privacy-policy"
+              className="text-slate-500 text-xs hover:text-slate-300 transition-colors"
+            >
+              Privacy Policy
+            </Link>
+            <Link
+              href="/admin"
+              className="text-slate-600 text-xs hover:text-slate-400 transition-colors"
+            >
+              Admin Panel
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
