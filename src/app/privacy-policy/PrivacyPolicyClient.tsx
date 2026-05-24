@@ -6,7 +6,7 @@ import { Shield, Mail } from 'lucide-react';
 const lastUpdated = 'May 24, 2026';
 const developerName = 'Ujang Wahyu';
 const developerEmail = 'wahyouwebid@gmail.com';
-const websiteUrl = 'https://wahyo.web.id';
+const websiteUrl = 'https://wahyou.web.id';
 
 const sections = [
   {
